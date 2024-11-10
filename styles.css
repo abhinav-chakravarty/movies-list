@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F8FF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #F5F5DC;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #F4A460;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: flexbox;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+
+    tr {
+        margin-bottom: 10px;
+    }
+
+    th {
+        background-color: #fff;
+        color: #333;
+    }
+}
